@@ -11,7 +11,7 @@ header,footer,.hero{
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -123,11 +123,10 @@ h1{
     height: 30vh;
 }
 
-.footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
+footer{
+    height: 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
     
 }
