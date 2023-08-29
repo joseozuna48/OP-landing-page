@@ -50,6 +50,7 @@ a{
     gap:100px;
     min-height: 40vh;
     padding-bottom: 50px;
+    padding: 15px 15px 50px 15px;
 }
 
 .hero-left{
@@ -57,12 +58,15 @@ a{
 }
 
 .hero-image{
+    flex-grow: 1;
+    flex-basis: 1;
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: grey;
-    width: 400px;
-    min-height: 200px;
+    max-width: 400px;
+    height: 200px;
 }
 
 h1{
@@ -117,8 +121,9 @@ h1{
     align-items: center;
     justify-content: center;
 
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
+    padding: 60px 15px 60px 15px;
+    
 }
 
 
@@ -144,6 +149,35 @@ h1{
 
 .sign-up-section{
     min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-banner{
+    background-color: #3882F6;
+    max-width: 900px;
+    height: 100px;
+    flex-grow: 1;
+    border-radius: 10px;
+    
+
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+    padding: 15px;
+    margin: 0 10px 0 10px;
+}
+
+.sign-up-banner button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
 }
 
 footer{
@@ -152,4 +186,8 @@ footer{
     align-items: center;
     justify-content: center;
     
+}
+
+button:hover{
+    cursor: pointer;
 }
