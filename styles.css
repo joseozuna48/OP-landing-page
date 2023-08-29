@@ -16,7 +16,6 @@ body{
     flex-direction: column;
 }
 header{
-    height: 5vh;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
@@ -118,4 +117,17 @@ h1{
     font-size: 36px;
     font-style: "italic";
     color:#1F2937;
+}
+
+.sing-up-section{
+    height: 30vh;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 }
