@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -12,8 +13,31 @@ body{
 
 .header-links{
     display: flex;
-    justify-content: space-evenly;
+    gap:10px;
+    height: 5vh;
+    align-items: center;
+    padding: 0 10px 0 10px;
+
+    font-size: 18px;
+    color:#E5E7EB;
+
 }
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
 
 header,footer,.hero{
     background-color: #1F2937;
