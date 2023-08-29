@@ -74,8 +74,8 @@ h1{
     font-weight: bold;
     border: none;
     font-size: 16px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
     margin-top: 10px;
 }
 
@@ -113,14 +113,28 @@ h1{
     justify-content: center;
 }
 
+
 .quote{
+    /* relative position so we can position the bold section relative to the quote
+    container */
+    position: relative; 
+
     max-width: 900px;
     font-size: 36px;
-    font-style: "italic";
+    font-weight: 100;
+    font-style: italic;
     color:#1F2937;
 }
 
-.sing-up-section{
+.quote-section b{
+    display: block;
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
+
+
+.sign-up-section{
     min-height: 30vh;
 }
 
