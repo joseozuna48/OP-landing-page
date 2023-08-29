@@ -104,6 +104,18 @@ h1{
     border-radius: 10px;
 }
 
-.quote{
+.quote-section{
     background-color: #E5E7EB;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    max-width: 900px;
+    font-size: 36px;
+    font-style: "italic";
+    color:#1F2937;
 }
