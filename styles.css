@@ -47,7 +47,7 @@ a{
     justify-content: center;
     align-items: center;
     gap:100px;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .hero-left{
@@ -60,7 +60,7 @@ a{
     justify-content: center;
     background-color: grey;
     width: 400px;
-    height: 200px;
+    min-height: 200px;
 }
 
 h1{
@@ -80,7 +80,7 @@ h1{
 }
 
 .information{
-    height: 40vh;
+    min-height: 40vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -92,6 +92,7 @@ h1{
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .image-unit{
@@ -105,7 +106,7 @@ h1{
 
 .quote-section{
     background-color: #E5E7EB;
-    height: 40vh;
+    min-height: 40vh;
 
     display: flex;
     align-items: center;
@@ -120,11 +121,11 @@ h1{
 }
 
 .sing-up-section{
-    height: 30vh;
+    min-height: 30vh;
 }
 
 footer{
-    height: 50px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
